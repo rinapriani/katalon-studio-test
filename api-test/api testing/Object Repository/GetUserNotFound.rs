@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Get user</name>
+   <name>GetUserNotFound</name>
    <tag></tag>
-   <elementGuidId>75e8d29b-586d-4764-b3e4-90333c3d0b40</elementGuidId>
+   <elementGuidId>d1d68a54-6a01-4f5c-b554-bb1ef2e2fad8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
@@ -15,7 +15,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://reqres.in/api/users/2</restUrl>
+   <restUrl>https://reqres.in/api/users/23</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

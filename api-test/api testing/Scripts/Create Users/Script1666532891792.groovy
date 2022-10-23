@@ -17,5 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('Object Repository/Get user'))
+
+response = WS.sendRequest(findTestObject('Object Repository/PostUser'))
+
+WS.verifyResponseStatusCode(response, 201)
+
+WS.verifyElementPropertyValue(response, 'name', "Rina Apriani")
 
